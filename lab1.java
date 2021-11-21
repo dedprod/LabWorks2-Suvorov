@@ -17,7 +17,7 @@ public class lab1 {
             System.out.println("Error");
             flag=1;
         }
-        if ((flag==0) & (a>=0) & (a<+15)) {
+        if ((flag==0) & (a>=0) & (a<=15)) {
             s=a;
             for(s=1; s<=a; s++) {
                 fac= (fac*s);
